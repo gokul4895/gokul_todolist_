@@ -7,9 +7,11 @@ if(p.value=="1234"&& u.value=="admin")
     
     return true;
 }
-else 
+else if(ip.value!="1234"&& u.value!="admin")
+
 {
     
+   alert("ENTER THE CORRECT PASSWORD");
    return false;
 }
 }
